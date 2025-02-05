@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+    font-family: sans-serif;
+}
+
+html body{
+    height: 100vh;
+    width: 100%;
+    position: relative;
+}
+
+nav{
+    width: 100%;
+    background: hsla(200, 30%, 34%, 0.452);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+}
+#logo div{
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    background: #D3E0E4;
+    margin-left: 15px;
+} 
+#logo h1{
+    color: #1574A4;
+    text-align: center;
+    margin-top: 7px;
+}
+
+#nav{
+    width: calc(100%/3*2);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    margin-right: 15px;
+}
+
+#menu ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
+}
+
+#menu li, a{
+    list-style: none;
+    color: black;
+    text-decoration: none;
+    font-size: 1.3rem; 
+}
+
+.menu-item:hover{
+    color: #1574A4;
+}
+
+#icon{
+    display: flex;
+    flex-direction: row;
+    gap: 9px;
+}
+
+#icon img{
+    height: 20px;
+}
+
+#user{
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+    border-radius: 5px;
+    background: #D3E0E4;
+    gap: 3px
+}
+
+            /* CAPA */
+
+#capa{
+    height: 45vh;
+    min-height: 450px;
+    background: #E1E5E8;
+    padding-top: 10vh;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+.campanha{
+    width: 40%;
+    margin-top: 50px;
+}
+.campanha p{
+    font-size: 2.3rem;
+    font-weight: bold;
+}
+
+#p2{
+    color: #3C5F70;
+    margin-top: 30px;
+}
+#p2 strong{
+    color: #1574A4;
+}
+.ver{
+    width: 100px;
+    height: 40px;
+    margin: 20px 0 0 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background: #1574A4;
+}
+.ver p{
+    color: #E1E5E8;
+    font-size: 22px;
+}
+
+#img-capa{
+    height: 400px;
+}
+#img-capa img{
+    height: 100%;
+}
+
+
+
+        /* filtros */
+
+#produtos{
+    display: flex;
+    flex-direction: row;
+}
+
+#filtros{
+    width: 300px;
+    height: 100vh;
+    background: #414447;
+}
+
+#todos{
+    width: calc(100% - 300px);
+    min-height: 100vh;
+}
