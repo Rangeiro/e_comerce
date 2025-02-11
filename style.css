@@ -578,3 +578,126 @@ footer input{
     justify-content: center;
     align-items: center;
 }
+
+
+/*  mobile */
+
+
+@media (max-width: 430px) {
+
+#capa{
+    height: min-content;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: start;
+    padding: 0;
+}
+#img-capa{
+    height: min-content;
+}
+#capa img{
+    height: 350px;
+    width: min-content;
+    margin: 0;
+    padding: 0;
+}
+.campanha{
+    width: 90%;
+    margin: 20px 0 ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#capa p{
+    font-size: 20px;
+    width: 90%;
+    text-align: center;
+}
+
+#p2{
+    margin: 10px;
+}
+.ver{
+    margin: 0;
+}
+
+#filtros{
+    display: none;
+}
+#todos{
+    width: 100%;
+}
+#todos h1{
+    font-size: 24px;
+    margin: 15px 0 5px 10px
+}
+
+.destaque{
+    width: 100%;
+}
+
+.m-vendidos{
+grid-template-columns: repeat(2,1fr);
+}
+
+.mv{
+    width: 100%;
+}
+   
+    
+
+    /* footer */
+
+footer{
+    flex-direction: column-reverse;
+}
+
+#parte2{
+    flex-direction: row;
+    width: 100%;
+    
+}
+
+#links{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#acesso{
+    grid-area: acesso;
+    width: 45%;
+    height: 250px;
+    border-left: none;
+}
+
+#links li{
+    margin: 0
+}
+#siganos{
+    grid-area: siganos;
+    width: 45%;
+    height: 250px;
+    border-right: none;
+}
+
+#login-fotter{
+    grid-area: login;
+    flex-direction: column;
+}
+
+
+
+#comentarios{
+    width: 100%;
+}
+
+.comentario2{
+    display: none;
+}
+
+.comentario{
+    width: 90%;
+    border-radius: 0 10px 10px 10px;
+}
+}
